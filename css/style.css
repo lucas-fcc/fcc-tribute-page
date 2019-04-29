@@ -1,0 +1,61 @@
+body {
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 	font-family: 'Metal Mania', cursive;
+}
+
+main {
+  background-color: #eee;
+}
+
+h1 {
+	text-shadow: 2px 2px 2px #1C3762;
+}
+
+ul li {
+	font-size: 1.2rem;
+}
+
+blockquote p {
+	font-size: 1.9rem;
+}
+
+@media (max-width: 767.98px) {
+  main {
+    margin: 1rem !important;
+    padding: 1rem !important;
+  }
+
+  #title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  main {
+    margin: 3rem !important;
+    padding: 1rem !important;
+  }
+
+  #title {
+    font-size: 3.5rem;
+  }
+}
+
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+  main {
+    margin: 2rem !important;
+    padding: 2rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    margin: 3rem !important;
+    padding: 3rem !important;
+  }
+}
